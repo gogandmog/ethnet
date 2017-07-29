@@ -2,7 +2,7 @@
 
 EtherNet TX Tools is a set of tools based to work various functions in the Ethereum Network.
 
-With EtherNet TX Tools, you can generate Ethereum transactions, such as valid Ether transfer transaction, Token transactions (support for over 80 Tokens) and and Contract transactions by bruteforcing valid hashes/checksums.
+With EtherNet TX Tools, you can generate valid Ethereum transactions such as Ether/Token transfer transactions (including support for over 80 of the top Ethereum based Tokens) and and Contract transactions by bruteforcing valid hashes/checksums.
 
 EtherNet Transaction Tools is a project not only for developers, programmers, and those who want to experiment with custom Ethereum Transactions, but also a tool for those who simply want to learn how the Ethereum network works.
 
