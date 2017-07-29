@@ -14,14 +14,14 @@ Note: The transactions broadcasted are not made with "real" keys, and therefore 
 
 With EthNet TX Tools, you can generate valid Ether, Token, or Contract transactions of any amount/type that is allowed by the specific token/program/application. EtherNet TX Tools works by bruteforcing for the correct transaction's hash/checksum, until a valid transaction is found with the specific options chosen in EtherNet TX Tools. (certain transactions take more bruteforce attempts than others, thus the "Estimated time" shown during the brutefocing process.
 
-[Here is a screenshot of a successfully generated Augur Token Transaction:]
+#### Here is a screenshot of a successfully generated Augur Token Transaction:
 http://i.imgur.com/ekVoNXw.png
 
 After successfully bruteforcing/generating a transaction, you can broadcast it to the Ethereum testnet or mainnet.
 
 Along with the ability to send "fake" Ether, "fake" tokens, and broadcast "fake" contract transactions (very simple contracts as of version 0.1.3), EtherNet TX Tools is a great tool for helping developers, programmers, or anyone else that wants to understand more about the Ethereum network and how it works as a whole, but works as a connected system. Understanding its' Blockchain, Tokens, Contrants, and everything else you could want to "mess around" with Ethereum transactions.
 
-[EthNet TX Tools supports generating transactions for the following Ethereum Based tokens:]
+#### EthNet TX Tools supports generating transactions for the following Ethereum Based tokens:
 
 EOS
 
@@ -191,7 +191,7 @@ Remicoin
 ***This is not a free money machine. Any ETH sent, Ethereum based tokens sent, or Ethereum contracts broadcasted will never 
 receive confirmations.
 
-GitHub Project Page: https://github.com/gogandmog/ethnet/
+#### Windows Binaries
 
 If you want to test out the functions of EtherNet Transaction Tools, but can't/don't want to compile the source, you can just head over to the releases page and download the most current compiled binaries: https://github.com/gogandmog/ethnet/releases
 
