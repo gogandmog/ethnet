@@ -8,18 +8,24 @@ EtherNet Transaction Tools is a project not only for developers, programmers, an
 
 EtherNet TX Tools allow you to generate and broadcast valid checksum transactions to the Ethereum Network (Testnet/Mainnet).
 
-Note: The transactions broadcasted are not made with "real" keys, and therefore will never receive confirmations on the Ethereum network. Instead, they will stay in a "pending" or "unconfirmed" state on the block explorers, wallets, Geth, Mist, and Etc. until the website/client "decides" that the transaction will never confirm, and thus will either reject or remove the transaction from the cients' history.
+Note: The transactions broadcasted are not made with "real" keys, and therefore will never receive confirmations on the Ethereum network. Instead, they will stay in a "pending" or "unconfirmed" state on the block explorers, wallets, Geth, Mist, Etc. until the website/client "decides" that the transaction will never confirm, and thus will either reject or remove the transaction from the cients' history.
 
 ### Generating "Fake" transactions by brutefocing hashes/checksums
 
-With EthNet TX Tools, you can generate valid Ether, Token, or Contract transactions of any amount/type that is allowed by the specific token/program/application. EtherNet TX Tools works by bruteforcing for the correct transaction's hash/checksum, until a valid transaction is found with the specific options chosen in EtherNet TX Tools. (certain transactions take more bruteforce attempts than others, thus the "Estimated time" shown during the brutefocing process.
+With EthNet TX Tools, you can generate valid Ether, Token, or Contract transactions of any amount/type that is allowed by the specific token/program/application. EtherNet TX Tools works by bruteforcing for the correct transaction's hash/checksum, until a valid transaction is found with the specific options chosen in EtherNet TX Tools. (certain transactions take more bruteforce attempts than others, thus the "Estimated attepmts" is shown during the brutefocing process.
 
 #### Here is a screenshot of a successfully generated Augur Token Transaction:
 http://i.imgur.com/ekVoNXw.png
 
-After successfully bruteforcing/generating a transaction, you can broadcast it to the Ethereum testnet or mainnet.
+#### How to generate a transaction:
 
-Along with the ability to send "fake" Ether, "fake" tokens, and broadcast "fake" contract transactions (very simple contracts as of version 0.1.3), EtherNet TX Tools is a great tool for helping developers, programmers, or anyone else that wants to understand more about the Ethereum network and how it works as a whole, but works as a connected system. Understanding its' Blockchain, Tokens, Contrants, and everything else you could want to "mess around" with Ethereum transactions.
+If you want to make a contract transaction, first read the guide. Whether you're making a transfer transaction of an ethereum based token (EthNet includes support for over 80 ethereum tokens, listed below), a transfer of Ether, or a simple Contract transaction (contract transactions are currently only available through the console)
+
+To create a Token or Ether transfer transaction with EthNet Tools, you simply choose the token/asset, the receiving address (a hex string, beginning with 0x), and the amount. EthNet tools will then bruteforce the hashes and exact fees for valid checksum hashes that make up and sign a valid transaction. 
+
+After successfully finding the transaction, you can broadcast it to the Ethereum testnet or mainnet.
+
+Along with the ability to send "fake" Ether, "fake" tokens, and broadcast "fake" contract transactions (very simple contracts as of version 0.0.3), EtherNet TX Tools is a great tool for helping developers, programmers, or anyone else that wants to understand more about the Ethereum network and how it works as individual parties connected to make a whole system. Understanding its' Blockchain, Tokens, Contrants, and everything else you could want to "mess around" with Ethereum transactions.
 
 #### EthNet TX Tools supports generating transactions for the following Ethereum Based tokens:
 
